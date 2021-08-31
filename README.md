@@ -1,9 +1,11 @@
 # Certificado Java 11 (1Z0-819)
 ## Preparación personal de la certificación Java 11 (1Z0-819)
 Aquí iré haciendo el seguimiento de la preparación de este examen de certificación. También lo usaré para apuntar ciertas cosas que necesite recordar. Por tanto, no estará todo lo necesario para aprobar la certificación sino sólo algunos detalles necesarios para mi.
-## Recursos de interés
-* Mapeo entre los objetivos del examen y los capítulos del libro de [Sybex](https://www.selikoff.net/2020/08/26/dont-panic-oracle-announces-new-java-ocp-11-exam/)
-## Temas de examen
+### Recursos de interés
+* [Información del examen 1Z0-819](https://education.oracle.com/es/cat%C3%A1logo-de-productos-ouexam-pexam_1z0-819/pexam_1Z0-819)
+* [Mapeo entre los objetivos del examen y los capítulos del libro de Sybex](https://www.selikoff.net/2020/08/26/dont-panic-oracle-announces-new-java-ocp-11-exam/)
+* [Curso de Udemy en castellano](https://www.udemy.com/course/curso-certificacion-profesional-desarrollador-java-se-11/)
+### Temas de examen
 * 01 - Working with Java data types
     - [ ] A - Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting
     - [ ] B - Handle text using String and StringBuilder classes
