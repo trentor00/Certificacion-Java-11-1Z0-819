@@ -39,6 +39,7 @@ public class Tema01A {
         double d = f; //Conversión implícita de float a double
 
         //char c = i; //No se puede pasar de un número a char.
-        // int i2 = f; //No se puede pasar de un decimal a un entero con conversión
+        //int i2 = f; //No se puede pasar de un decimal a un entero con conversión
+
     }
 }

@@ -21,3 +21,64 @@ Todos los primitivos son convertibles entre si, excepto los booleanos.
 El tipo de destino ha de ser de igual o mayor tamaño que el de origen. Hay dos excepciones:
 * El tipo de origen es numérico y el de destino es char.
 * El tipo de destino es entero y el origen es decimal.
+
+### Wrappers
+Encapsulan tipos primitivos como objetos. Tienen el mismo nombre que el primitivo pero con la inicial en mayúscula a
+excepción de char que es Character. Son Inmutables.
+
+#### Cómo se crean
+Se pueden crear usando su propio constructor, por ejemplo:
+```
+Integer i = new Integer(100);
+Integer i2 = new Integer("100");
+ ```
+pero su uso está desaconsejado porque al hacerlo de esa manera, perdemos características como la caché.
+
+
+Por tanto, la manera correcta es a partir del método estático valueOf. Aquí todos los disponibles según la clase:
+* `Boolean.valueOf(true)`
+* `Byte.valueOf((byte) 1)`
+* `Short.valueOf((short) 100)`
+* `Integer.valueOf(100)`
+* `Long.valueOf(100)`
+* `Float.valueOf((float) 100)`
+* `Double.valueOf(100.0)`
+* `Character.valueOf('a')`
+ 
+#### Pasar a primitivo
+Para pasar un wrapper a primitivo se utiliza el método xxxValue(). Un ejemplo:
+```
+Integer iObjeto = Integer.valueOf(100);
+int iPrimitivo = iObjeto.intValue();
+```
+
+#### Convertir de String a primitivo
+Se utiliza el método estático parseXXX(""). Lista de ejemplos:
+* `Boolean.parseBoolean("true")`
+* `Byte.parseByte("1")`
+* `Short.parseShort("100")`
+* `Integer.parseInt("100")`
+* `Long.parseLong("100")`
+* `Float.parseFloat("100")`
+* `Double.parseDouble("100")`
+
+#### Convertir de String a Wrapper
+* `Boolean.valueOf("true")`
+* `Byte.valueOf("1")`
+* `Short.valueOf("100")`
+* `Integer.valueOf("100")`
+* `Long.valueOf("100")`
+* `Float.valueOf("100.1")`
+* `Double.valueOf("100.1")`
+
+### Autoboxing
+Es la conversión automática que hace Java entre un primitivo y su clase envoltorio.
+Por ejemplo:
+`Integer i = 100;`
+
+### Unboxing
+Es justo la operación contraria a la anterior, es decir, la conversión automática entre una clase envoltorio y su primitivo. Ejemplo:
+```
+Integer iObjeto = Integer.valueOf(100);
+int iPrimitivo = iObjeto;
+```
