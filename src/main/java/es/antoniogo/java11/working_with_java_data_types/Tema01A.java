@@ -9,6 +9,8 @@ public class Tema01A {
         conversionesImplicitas();
         wrappers();
         autoboxingUnboxing();
+        ordenOperadores();
+        promocionNumericaAlOperar();
     }
 
     private static void literalesNumericos() {
@@ -106,5 +108,18 @@ public class Tema01A {
         float primitiveFloat = wrapperFloat;
         double primitiveDouble = wrapperDouble;
         char primitiveChar = wrapperCharacter;
+    }
+
+    private static void ordenOperadores() {
+        int gato = 3;
+        int perro = ++gato * 5 / gato--;
+        System.out.println("gato is " + gato); //3
+        System.out.println("perro is " + perro); //5
+    }
+
+    private static void promocionNumericaAlOperar() {
+        short s1=1, s2=2;
+        //short s3 = s1 + s2; //Esto no compila debido a la tercera regla, ya que se promocionan en int
+        short s3 = (short) (s1 + s2); //De esta manera si funcionaría.
     }
 }

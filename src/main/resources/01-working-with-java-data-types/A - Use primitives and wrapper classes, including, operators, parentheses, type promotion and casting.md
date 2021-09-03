@@ -71,14 +71,37 @@ Se utiliza el método estático parseXXX(""). Lista de ejemplos:
 * `Float.valueOf("100.1")`
 * `Double.valueOf("100.1")`
 
-### Autoboxing
+#### Autoboxing
 Es la conversión automática que hace Java entre un primitivo y su clase envoltorio.
 Por ejemplo:
 `Integer i = 100;`
 
-### Unboxing
+#### Unboxing
 Es justo la operación contraria a la anterior, es decir, la conversión automática entre una clase envoltorio y su primitivo. Ejemplo:
 ```
 Integer iObjeto = Integer.valueOf(100);
 int iPrimitivo = iObjeto;
 ```
+
+### Operadores
+Orden de precedencia según el operador:
+* Post-unary operators (expression++, expression--)
+* Pre-unary operators (++expression, --expression)
+* Other unary operators (-,!,~,+,-, (type))
+* Multiplicación/División/Módulo (*,/,%)
+* Suma/Resta (+,-)
+* Shift operators (<<, >>, >>>)
+* Relacionales (<,>,<=, >=, instanceof)
+* Igualdad (==, !=)
+* Lógicos (&, ^,|)
+* Lógicos cortocircuitos (&&, ||)
+* Ternarios (?:)
+* Asignación (=, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, >>=, >>>=)
+
+#### Promoción numérica
+1. Si dos valores tienen diferente tipo, Java promocionará el valor más pequeño al tipo del más grande.
+2. Si uno de los valores es entero y el otro es decimal, Java promocionará el entero al tipo del decimal.
+3. Tipos pequeños como byte, short y char, primero se promocionarán siempre a int aunque los dos sean del mismo tipo.
+4. Por último, el resultado devuelto será el del tipo promocionado.
+
+Ojo que la regla número 3 no aplica a los operadores unarios.
