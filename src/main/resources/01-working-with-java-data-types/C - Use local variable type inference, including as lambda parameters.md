@@ -10,7 +10,7 @@ var i = 100; //Aquí el tipo es int
 var d = Double.valueOf("100.1") // Aquí el tipo es Double
 ```
 Detalles importes:
-* Sólo se puede usar en variables locales
+* Solo se puede usar en variables locales
 * Es obligatorio asignar explícitamente un valor a la variable
 * No se puede asignar null
 * No se puede utilizar en declaraciones multiples
