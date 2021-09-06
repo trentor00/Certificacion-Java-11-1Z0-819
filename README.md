@@ -8,7 +8,7 @@ Aquí iré haciendo el seguimiento de la preparación de este examen de certific
 ### Temas de examen
 * 01 - Working with Java data types
     - [X] [A - Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting](src/main/resources/01-working-with-java-data-types/A%20-%20Use%20primitives%20and%20wrapper%20classes,%20including,%20operators,%20parentheses,%20type%20promotion%20and%20casting.md)
-    - [ ] [B - Handle text using String and StringBuilder classes](src/main/resources/01-working-with-java-data-types/B%20-%20Handle%20text%20using%20String%20and%20StringBuilder%20classes.md)
+    - [X] [B - Handle text using String and StringBuilder classes](src/main/resources/01-working-with-java-data-types/B%20-%20Handle%20text%20using%20String%20and%20StringBuilder%20classes.md)
     - [ ] [C - Use local variable type inference, including as lambda parameters](src/main/resources/01-working-with-java-data-types/C%20-%20Use%20local%20variable%20type%20inference,%20including%20as%20lambda%20parameters.md)
 * 02 - Controlling Program Flow
     - [ ] A - Create and use loops, if/else, and switch statements
