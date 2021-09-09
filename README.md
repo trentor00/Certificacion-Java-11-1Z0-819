@@ -11,7 +11,7 @@ Aquí iré haciendo el seguimiento de la preparación de este examen de certific
     - [X] [B - Handle text using String and StringBuilder classes](src/main/resources/01-working-with-java-data-types/B%20-%20Handle%20text%20using%20String%20and%20StringBuilder%20classes.md)
     - [ ] [C - Use local variable type inference, including as lambda parameters](src/main/resources/01-working-with-java-data-types/C%20-%20Use%20local%20variable%20type%20inference,%20including%20as%20lambda%20parameters.md)
 * 02 - Controlling Program Flow
-    - [ ] A - Create and use loops, if/else, and switch statements
+    - [X] [A - Create and use loops, if/else, and switch statements](src/main/resources/02-controlling-program-flow/A%20-%20%20Create%20and%20use%20loops,%20if%20else,%20and%20switch%20statements.md)
 * 03 - Java Object-Oriented Approach
     - [ ] A - Declare and instantiate Java objects including nested class objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)
     - [ ] B - Define and use fields and methods, including instance, static and overloaded methods
