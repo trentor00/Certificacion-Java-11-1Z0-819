@@ -13,14 +13,14 @@ Aquí iré haciendo el seguimiento de la preparación de este examen de certific
 * 02 - Controlling Program Flow
     - [X] [A - Create and use loops, if/else, and switch statements](src/main/resources/02-controlling-program-flow/A%20-%20%20Create%20and%20use%20loops,%20if%20else,%20and%20switch%20statements.md)
 * 03 - Java Object-Oriented Approach
-    - [ ] A - Declare and instantiate Java objects including nested class objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)
-    - [ ] B - Define and use fields and methods, including instance, static and overloaded methods
-    - [ ] C - Initialize objects and their members using instance and static initialiser statements and constructors
-    - [ ] D - Understand variable scopes, apply encapsulation and make objects immutable
-    - [ ] E - Create and use subclasses and superclasses, including abstract classes
-    - [ ] F - Utilize polymorphism and casting to call methods, differentiate object type versus reference type
-    - [ ] G - Create and use interfaces, identify functional interfaces, and utilize private, static, and default methods
-    - [ ] H - Create and use enumerations
+    - [ ] [A - Declare and instantiate Java objects including nested class objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)](src/main/resources/03-java-object-oriented-approach/A%20-%20Declare%20and%20instantiate%20Java%20objects%20including%20nested%20class%20objects,%20and%20explain%20objects'%20lifecycles.md)
+    - [ ] [B - Define and use fields and methods, including instance, static and overloaded methods](src/main/resources/03-java-object-oriented-approach/B%20-%20Define%20and%20use%20fields%20and%20methods,%20including%20instance,%20static%20and%20overloaded%20methods.md)
+    - [ ] [C - Initialize objects and their members using instance and static initialiser statements and constructors](src/main/resources/03-java-object-oriented-approach/C%20-%20Initialize%20objects%20and%20their%20members%20using%20instance%20and%20static%20initialiser%20statements%20and%20constructors.md)
+    - [ ] [D - Understand variable scopes, apply encapsulation and make objects immutable](src/main/resources/03-java-object-oriented-approach/D%20-%20Understand%20variable%20scopes,%20apply%20encapsulation%20and%20make%20objects%20immutable.md)
+    - [ ] [E - Create and use subclasses and superclasses, including abstract classes](src/main/resources/03-java-object-oriented-approach/E%20-%20Create%20and%20use%20subclasses%20and%20superclasses,%20including%20abstract%20classes.md)
+    - [ ] [F - Utilize polymorphism and casting to call methods, differentiate object type versus reference type](src/main/resources/03-java-object-oriented-approach/F%20-%20Utilize%20polymorphism%20and%20casting%20to%20call%20methods,%20differentiate%20object%20type%20versus%20reference%20type.md)
+    - [ ] [G - Create and use interfaces, identify functional interfaces, and utilize private, static, and default methods](src/main/resources/03-java-object-oriented-approach/G%20-%20Create%20and%20use%20interfaces,%20identify%20functional%20interfaces,%20and%20utilize%20private,%20static,%20and%20default%20methods.md)
+    - [ ] [H - Create and use enumerations](src/main/resources/03-java-object-oriented-approach/H%20-%20Create%20and%20use%20enumerations.md)
 * 04 - Exception Handling
     - [ ] A - Handle exceptions using try/catch/finally clauses, try-with-resource, and multi-catch statements
     - [ ] B - Create and use custom exceptions
