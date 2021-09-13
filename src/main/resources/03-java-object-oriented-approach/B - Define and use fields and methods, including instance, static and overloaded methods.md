@@ -12,15 +12,19 @@ Ojo que esto no es una sobre escritura.
 
 Si hay ambigüedad, se dará un error de compilación.
 
-#### Paso de parámetros
+### Paso de parámetros
 En Java, el paso por parámetros se hace por copia. Cuando se pasan primitivos, se copia el valor del dato, mientras que si se pasan
 objetos, se copia la referencia del objeto.
 
-#### Métodos estáticos
+### Métodos estáticos
 En su propia clase, sólo puede llamar a miembros que también sean static.
 
-#### Atributos estáticos
+### Atributos estáticos
 Se comparten por todas las instancias de esa clase.
 
-#### Bloques estáticos
+### Bloques estáticos
 Sólo se ejecutan una vez durante toda la vida de una clase.
+
+#### Orden de inicialización
+1. Atributos y los bloques de inicialización de instancia se ejecutarán en el orden que aparecen en el fichero.
+2. El constructor, después de todo lo anterior.
