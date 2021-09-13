@@ -9,25 +9,25 @@ Aquí iré haciendo el seguimiento de la preparación de este examen de certific
 * 01 - Working with Java data types
     - [X] [A - Use primitives and wrapper classes, including, operators, parentheses, type promotion and casting](src/main/resources/01-working-with-java-data-types/A%20-%20Use%20primitives%20and%20wrapper%20classes,%20including,%20operators,%20parentheses,%20type%20promotion%20and%20casting.md)
     - [X] [B - Handle text using String and StringBuilder classes](src/main/resources/01-working-with-java-data-types/B%20-%20Handle%20text%20using%20String%20and%20StringBuilder%20classes.md)
-    - [ ] [C - Use local variable type inference, including as lambda parameters](src/main/resources/01-working-with-java-data-types/C%20-%20Use%20local%20variable%20type%20inference,%20including%20as%20lambda%20parameters.md)
+    - [X] [C - Use local variable type inference, including as lambda parameters](src/main/resources/01-working-with-java-data-types/C%20-%20Use%20local%20variable%20type%20inference,%20including%20as%20lambda%20parameters.md)
 * 02 - Controlling Program Flow
     - [X] [A - Create and use loops, if/else, and switch statements](src/main/resources/02-controlling-program-flow/A%20-%20%20Create%20and%20use%20loops,%20if%20else,%20and%20switch%20statements.md)
 * 03 - Java Object-Oriented Approach
-    - [ ] [A - Declare and instantiate Java objects including nested class objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)](src/main/resources/03-java-object-oriented-approach/A%20-%20Declare%20and%20instantiate%20Java%20objects%20including%20nested%20class%20objects,%20and%20explain%20objects'%20lifecycles.md)
-    - [ ] [B - Define and use fields and methods, including instance, static and overloaded methods](src/main/resources/03-java-object-oriented-approach/B%20-%20Define%20and%20use%20fields%20and%20methods,%20including%20instance,%20static%20and%20overloaded%20methods.md)
-    - [ ] [C - Initialize objects and their members using instance and static initialiser statements and constructors](src/main/resources/03-java-object-oriented-approach/C%20-%20Initialize%20objects%20and%20their%20members%20using%20instance%20and%20static%20initialiser%20statements%20and%20constructors.md)
-    - [ ] [D - Understand variable scopes, apply encapsulation and make objects immutable](src/main/resources/03-java-object-oriented-approach/D%20-%20Understand%20variable%20scopes,%20apply%20encapsulation%20and%20make%20objects%20immutable.md)
-    - [ ] [E - Create and use subclasses and superclasses, including abstract classes](src/main/resources/03-java-object-oriented-approach/E%20-%20Create%20and%20use%20subclasses%20and%20superclasses,%20including%20abstract%20classes.md)
-    - [ ] [F - Utilize polymorphism and casting to call methods, differentiate object type versus reference type](src/main/resources/03-java-object-oriented-approach/F%20-%20Utilize%20polymorphism%20and%20casting%20to%20call%20methods,%20differentiate%20object%20type%20versus%20reference%20type.md)
-    - [ ] [G - Create and use interfaces, identify functional interfaces, and utilize private, static, and default methods](src/main/resources/03-java-object-oriented-approach/G%20-%20Create%20and%20use%20interfaces,%20identify%20functional%20interfaces,%20and%20utilize%20private,%20static,%20and%20default%20methods.md)
-    - [ ] [H - Create and use enumerations](src/main/resources/03-java-object-oriented-approach/H%20-%20Create%20and%20use%20enumerations.md)
+    - [X] [A - Declare and instantiate Java objects including nested class objects, and explain objects' lifecycles (including creation, dereferencing by reassignment, and garbage collection)](src/main/resources/03-java-object-oriented-approach/A%20-%20Declare%20and%20instantiate%20Java%20objects%20including%20nested%20class%20objects,%20and%20explain%20objects'%20lifecycles.md)
+    - [X] [B - Define and use fields and methods, including instance, static and overloaded methods](src/main/resources/03-java-object-oriented-approach/B%20-%20Define%20and%20use%20fields%20and%20methods,%20including%20instance,%20static%20and%20overloaded%20methods.md)
+    - [X] [C - Initialize objects and their members using instance and static initialiser statements and constructors](src/main/resources/03-java-object-oriented-approach/C%20-%20Initialize%20objects%20and%20their%20members%20using%20instance%20and%20static%20initialiser%20statements%20and%20constructors.md)
+    - [X] [D - Understand variable scopes, apply encapsulation and make objects immutable](src/main/resources/03-java-object-oriented-approach/D%20-%20Understand%20variable%20scopes,%20apply%20encapsulation%20and%20make%20objects%20immutable.md)
+    - [X] [E - Create and use subclasses and superclasses, including abstract classes](src/main/resources/03-java-object-oriented-approach/E%20-%20Create%20and%20use%20subclasses%20and%20superclasses,%20including%20abstract%20classes.md)
+    - [X] [F - Utilize polymorphism and casting to call methods, differentiate object type versus reference type](src/main/resources/03-java-object-oriented-approach/F%20-%20Utilize%20polymorphism%20and%20casting%20to%20call%20methods,%20differentiate%20object%20type%20versus%20reference%20type.md)
+    - [X] [G - Create and use interfaces, identify functional interfaces, and utilize private, static, and default methods](src/main/resources/03-java-object-oriented-approach/G%20-%20Create%20and%20use%20interfaces,%20identify%20functional%20interfaces,%20and%20utilize%20private,%20static,%20and%20default%20methods.md)
+    - [X] [H - Create and use enumerations](src/main/resources/03-java-object-oriented-approach/H%20-%20Create%20and%20use%20enumerations.md)
 * 04 - Exception Handling
-    - [ ] A - Handle exceptions using try/catch/finally clauses, try-with-resource, and multi-catch statements
-    - [ ] B - Create and use custom exceptions
+    - [ ] [A - Handle exceptions using try/catch/finally clauses, try-with-resource, and multi-catch statements](src/main/resources/04-exception-handling/A%20-%20Handle%20exceptions%20using%20try%20catch%20finally%20clauses,%20try-with-resource,%20and%20multi-catch%20statements.md)
+    - [ ] [B - Create and use custom exceptions](src/main/resources/04-exception-handling/B%20-%20Create%20and%20use%20custom%20exceptions.md)
 * 05 - Working with Arrays and Collections
-    - [ ] A - Use generics, including wildcards
-    - [ ] B - Use a Java array and List, Set, Map and Deque collections, including convenience methods
-    - [ ] C - Sort collections and arrays using Comparator and Comparable interfaces
+    - [ ] [A - Use generics, including wildcards](src/main/resources/05-working-with-arrays-and-collections/A%20-%20Use%20generics,%20including%20wildcards.md)
+    - [ ] [B - Use a Java array and List, Set, Map and Deque collections, including convenience methods](src/main/resources/05-working-with-arrays-and-collections/B%20-%20Use%20a%20Java%20array%20and%20List,%20Set,%20Map%20and%20Deque%20collections,%20including%20convenience%20methods.md)
+    - [ ] [C - Sort collections and arrays using Comparator and Comparable interfaces](src/main/resources/05-working-with-arrays-and-collections/C%20-%20Sort%20collections%20and%20arrays%20using%20Comparator%20and%20Comparable%20interfaces.md)
 * 06 - Working with Streams and Lambda expressions
     - [ ] A - Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package
     - [ ] B - Use Java Streams to filter, transform and process data
