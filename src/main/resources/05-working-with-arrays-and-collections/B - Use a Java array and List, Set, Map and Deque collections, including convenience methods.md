@@ -105,3 +105,75 @@ T remove(int pos);
 boolean remove(Object ob);
 ```
 
+### Maps
+* Cada elemento tiene una clave única asociada.
+* No tienen orden
+* Implementan la interfaz Map
+* Son clases genéricas
+* La clase principal de Map es HashMap
+
+#### Formas de crear un Map
+* Instancias de HashMap
+```
+Map<Intenger, String> map = new HashMap<>();
+```
+
+* A partir del método ofEntries() de Map
+```
+Map<Integer, String> map = Map.ofEntries(
+    Map.entry(1, "Gavà"),
+    Map.entry(2, "Viladecans")
+);
+```
+Ojo que es inmutable, y no se permite ni la eliminación, ni la modificación, ni inserción. Además tampoco se pueden poner nulls.
+
+* A partir del método copyOf de Map
+```
+Map<Integer, String> map2 = Map.copyOf(map);
+```
+Pasa lo mismo que con el caso anterior.
+
+#### Métodos de Map
+##### put
+Sirve para añadir elementos a la colección. Si ya existe la clave, al sustituye. La firma es:
+```
+T put(K clave, T dato);
+```
+Ojo que se permiten claves null
+
+##### putIfAbsent
+Sólo la añade si no existe o si existe pero es null la clave. La firma es:
+```
+T putIfAbsent(K clave, T dato);
+```
+
+##### get
+Devuelve el dato de la clave. Si no hay, devuelve null. La firma es:
+```
+T get(K clave)
+```
+
+##### size
+Devuelve el tamaño del map.
+La firma del método:
+```
+int size();
+```
+
+##### remove
+Elimina el dato que tiene la clave asociada y devuelve el elemento que se elimina. La firma es:
+```
+T remove(Object clave);
+```
+
+##### containsKey
+Indica si hay un elemento con esa clave asociada. La firma es:
+```
+boolean containsKey(K clave);
+```
+
+##### containsValue
+Indica si el elemento está en el Map. La firma es:
+```
+boolean containsValue(T valor);
+```
