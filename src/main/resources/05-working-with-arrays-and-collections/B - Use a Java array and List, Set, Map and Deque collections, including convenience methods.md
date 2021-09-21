@@ -177,3 +177,111 @@ Indica si el elemento está en el Map. La firma es:
 ```
 boolean containsValue(T valor);
 ```
+
+### Sets
+* Los elementos no tienen posición ni clave. Los elementos no se pueden repetir.
+* Se utiliza el método equals y hashcode para determinar la igualdad
+* Implementan la interfaz Set
+* Son clases genéricas
+* La clase principal es HashSet
+
+#### Formas de crear un Set
+* Instancias de HashSet
+```
+Set<Srtring> sets = new HashSet<>();
+```
+
+* A partir del método of() de Set:
+```
+Set<String> sets = Set.of("A", "B");
+```
+Ojo que es inmutable, y no se permite ni la eliminación, ni la modificación, ni la inserción. Además, tampoco se pueden poner nulls.
+
+* A partir del método copyOf de Set
+```
+Set<String> nuevo = Set.copyOf(sets);
+```
+Pasa lo mismo que con el anterior.
+
+#### Métodos de Set
+##### add
+Sirve para añadir elementos al conjunto. Si ya existe, no lo añade. La firma es:
+```
+boolean add(T dato);
+```
+Devuelve true si lo ha podido añadir.
+
+##### remove
+Elimina el elemento si existe en la colección. La firma del método es:
+```
+boolean remove(T dato);
+```
+
+##### size
+Devuelve el tamaño del conjunto. La firma del método es:
+```
+int size();
+```
+
+##### contains
+Devuelve true si existe el elemento en el conjunto. La firma es:
+```
+boolean contains(Object obj);
+```
+
+### Deque
+* Se pueden añadir elementos por ambos extremos.
+* Implementa la interfaz Deque, que a su vez hereda de Queue.
+* Son clases genéricas.
+* La clase principal es ArrayDeque
+
+#### Formas de crear un Deque
+No hay métodos de factoría.
+```
+Deque<String> deque = new ArrayDeque<>();
+Deque<String> deque = new LinkedList<>();
+```
+
+#### Métodos de Deque
+##### add
+Añade el dato al final, por tanto se comporta como una cola. La firma es:
+```
+boolean add(T dato);
+```
+
+##### push
+Añade el dato al principio, por tanto se comporta como una pila. La firma es:
+```
+boolean push(T dato);
+```
+
+##### poll
+Extrae y elimina el elemento de la cabecera. La firma es:
+```
+E poll();
+```
+
+##### remove
+Hace lo mismo que poll. La firma es:
+```
+E remove();
+```
+
+##### peek
+Devuelve el elemento de la cabecera sin eliminarlo. La firma es:
+```
+E peek();
+```
+
+##### element
+Lo mismo que peek. La firma es:
+```
+E element();
+```
+
+##### size
+Permite saber el tamaño. La firma es:
+```
+int size();
+```
+
