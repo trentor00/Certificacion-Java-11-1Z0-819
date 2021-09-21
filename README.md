@@ -29,12 +29,12 @@ Aquí iré haciendo el seguimiento de la preparación de este examen de certific
     - [ ] [B - Use a Java array and List, Set, Map and Deque collections, including convenience methods](src/main/resources/05-working-with-arrays-and-collections/B%20-%20Use%20a%20Java%20array%20and%20List,%20Set,%20Map%20and%20Deque%20collections,%20including%20convenience%20methods.md)
     - [ ] [C - Sort collections and arrays using Comparator and Comparable interfaces](src/main/resources/05-working-with-arrays-and-collections/C%20-%20Sort%20collections%20and%20arrays%20using%20Comparator%20and%20Comparable%20interfaces.md)
 * 06 - Working with Streams and Lambda expressions
-    - [ ] A - Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package
-    - [ ] B - Use Java Streams to filter, transform and process data
-    - [ ] C - Perform decomposition and reduction, including grouping and partitioning on sequential and parallel streams
+    - [ ] [A - Implement functional interfaces using lambda expressions, including interfaces from the java.util.function package](src/main/resources/06-working-with-streams-and-lambda-expressions/A%20-%20Implement%20functional%20interfaces%20using%20lambda%20expressions,%20including%20interfaces%20from%20the%20java.util.function%20package.md)
+    - [ ] [B - Use Java Streams to filter, transform and process data](src/main/resources/06-working-with-streams-and-lambda-expressions/B%20-%20Use%20Java%20Streams%20to%20filter,%20transform%20and%20process%20data.md)
+    - [ ] [C - Perform decomposition and reduction, including grouping and partitioning on sequential and parallel streams](src/main/resources/06-working-with-streams-and-lambda-expressions/C%20-%20Perform%20decomposition%20and%20reduction,%20including%20grouping%20and%20partitioning%20on%20sequential%20and%20parallel%20streams.md)
 * 07 - Java Platform Module System
-    - [ ] A - Deploy and execute modular applications, including automatic modules
-    - [ ] B - Declare, use, and expose modules, including the use of services
+    - [ ] [A - Deploy and execute modular applications, including automatic modules](src/main/resources/07-java-platform-module-system/A%20-%20Deploy%20and%20execute%20modular%20applications,%20including%20automatic%20modules.md)
+    - [ ] [B - Declare, use, and expose modules, including the use of services](src/main/resources/07-java-platform-module-system/B%20-%20Declare,%20use,%20and%20expose%20modules,%20including%20the%20use%20of%20services.md)
 * 08 - Concurrency
     - [ ] A - Create worker threads using Runnable and Callable, and manage concurrency using an ExecutorService and java.util.concurrent API
     - [ ] B - Develop thread-safe code, using different locking mechanisms and java.util.concurrent API
